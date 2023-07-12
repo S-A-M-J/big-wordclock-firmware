@@ -18,7 +18,7 @@ echo "downloading flow file..."
 cd /home/pi/.node-red
 sudo rm flows.json
 cd
-sudo bash -c "curl -o flows.json https://raw.githubusercontent.com/S-A-M-J/wordclock/main/node-red-flows-wordclock.json"
+sudo bash -c "curl -o flows.json https://raw.githubusercontent.com/S-A-M-J/big-wordclock-firmware/main/Update/flows.json" 
 
 sudo touch flows.json
 sudo mv flows.json /home/pi/.node-red/flows.json
